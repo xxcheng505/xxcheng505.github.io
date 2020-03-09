@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xcheng505.ga/"/>
-  <updated>2020-03-09T19:54:56.901Z</updated>
+  <updated>2020-03-09T20:10:56.338Z</updated>
   <id>http://xcheng505.ga/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://xcheng505.ga/2020/03/10/future/"/>
     <id>http://xcheng505.ga/2020/03/10/future/</id>
     <published>2020-03-09T19:23:57.000Z</published>
-    <updated>2020-03-09T19:54:56.901Z</updated>
+    <updated>2020-03-09T20:10:56.338Z</updated>
     
     <content type="html"><![CDATA[<p>2020年3月10日</p><p>相信未来——</p><img src="http://i1.fuimg.com/711807/14e71420f315ee27.jpg" alt="BelieveFuture" style="zoom:100%;" /><hr>]]></content>
     
@@ -40,34 +40,47 @@
     </summary>
     
     
+      <category term="Life" scheme="http://xcheng505.ga/categories/Life/"/>
     
-      <category term="WeirdLife" scheme="http://xcheng505.ga/tags/WeirdLife/"/>
+    
+      <category term="Thoughts" scheme="http://xcheng505.ga/tags/Thoughts/"/>
+    
+      <category term="Emotion" scheme="http://xcheng505.ga/tags/Emotion/"/>
+    
+      <category term="Lizhi" scheme="http://xcheng505.ga/tags/Lizhi/"/>
     
   </entry>
   
   <entry>
-    <title>Weird Collection</title>
-    <link href="http://xcheng505.ga/2020/03/09/Hello-word/"/>
-    <id>http://xcheng505.ga/2020/03/09/Hello-word/</id>
+    <title>Don&#39;t forget</title>
+    <link href="http://xcheng505.ga/2020/03/09/Hello-world/"/>
+    <id>http://xcheng505.ga/2020/03/09/Hello-world/</id>
     <published>2020-03-09T09:43:25.000Z</published>
-    <updated>2020-03-09T09:47:02.622Z</updated>
+    <updated>2020-03-09T20:09:34.143Z</updated>
     
-    <content type="html"><![CDATA[<p>我什么也没忘，但是有些事只适合收藏。</p><p>不能说，也不能想，却又不能忘……</p>]]></content>
+    <content type="html"><![CDATA[<p>2020年3月9日</p><p>我什么也没忘，但是有些事只适合收藏。</p><p>不能说，也不能想，却又不能忘……</p><img src="http://i1.fuimg.com/711807/9c16925c34898e0a.jpg" alt="pic by wwb" style="zoom:80%;" />]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;我什么也没忘，但是有些事只适合收藏。&lt;/p&gt;
+        &lt;p&gt;2020年3月9日&lt;/p&gt;
+&lt;p&gt;我什么也没忘，但是有些事只适合收藏。&lt;/p&gt;
 &lt;p&gt;不能说，也不能想，却又不能忘……&lt;/p&gt;
-
+&lt;img src=&quot;http://i1.fuimg.com/711807/9c16925c34898e0a.jpg&quot; alt=&quot;pic by ww
       
     
     </summary>
     
     
+      <category term="Life" scheme="http://xcheng505.ga/categories/Life/"/>
     
-      <category term="WeirdLife" scheme="http://xcheng505.ga/tags/WeirdLife/"/>
+    
+      <category term="Thoughts" scheme="http://xcheng505.ga/tags/Thoughts/"/>
+    
+      <category term="Emotion" scheme="http://xcheng505.ga/tags/Emotion/"/>
+    
+      <category term="Excerpt" scheme="http://xcheng505.ga/tags/Excerpt/"/>
     
   </entry>
   
