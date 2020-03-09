@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://xcheng505.ga/archives/index.html</loc>
+    <loc>http://xcheng505.ga/tags/index.html</loc>
     
-    <lastmod>2020-03-09T10:16:32.574Z</lastmod>
+    <lastmod>2020-03-09T18:17:22.211Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://xcheng505.ga/catagories/index.html</loc>
+    <loc>http://xcheng505.ga/categories/index.html</loc>
     
-    <lastmod>2020-03-09T09:47:33.642Z</lastmod>
+    <lastmod>2020-03-09T18:17:02.589Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xcheng505.ga/archives/index.html</loc>
+    
+    <lastmod>2020-03-09T10:16:32.574Z</lastmod>
     
   </url>
   
