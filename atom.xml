@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>WeirdCollection</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://xcheng505.ga/"/>
+  <updated>2020-03-09T09:44:43.121Z</updated>
+  <id>http://xcheng505.ga/</id>
+  
+  <author>
+    <name>xcheng</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello world</title>
+    <link href="http://xcheng505.ga/2020/03/09/Hello-word/"/>
+    <id>http://xcheng505.ga/2020/03/09/Hello-word/</id>
+    <published>2020-03-09T09:43:25.000Z</published>
+    <updated>2020-03-09T09:44:43.121Z</updated>
+    
+    <content type="html"><![CDATA[<p>我什么也没忘，但是有些事只适合收藏。</p><p>不能说，也不能想，却又不能忘……</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;我什么也没忘，但是有些事只适合收藏。&lt;/p&gt;
+&lt;p&gt;不能说，也不能想，却又不能忘……&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+      <category term="WeirdLife" scheme="http://xcheng505.ga/tags/WeirdLife/"/>
+    
+  </entry>
+  
+</feed>
