@@ -4,11 +4,40 @@
   
     
     <entry>
+      <title>吴恩达机器学习笔记1</title>
+      <link href="/2021/01/23/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01/"/>
+      <url>/2021/01/23/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-2-什么是机器学习"><a href="#1-2-什么是机器学习" class="headerlink" title="1.2 什么是机器学习"></a>1.2 什么是机器学习</h2><p><strong>Machine Learning Definition</strong></p><p>Arthur Samuel (1959). Machine Learning: Field of study that gives computers the ability to learn without being explicitly programmed.</p><p>Tom Mitchell (1998). Well-posed Learning Problem: A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E.</p><p><strong>Machine Learning Algorithms”</strong></p><ul><li>Supervised Learning </li><li>Unsupervised Learning</li></ul><p>Others: Reinforcement learning, recommender systems.</p><p><strong>Also talk about:</strong> Practical advice for applying learning algorithms.</p><h2 id="1-3-Supervised-Learning"><a href="#1-3-Supervised-Learning" class="headerlink" title="1.3 Supervised Learning"></a>1.3 Supervised Learning</h2><p><u>Supervised Learning</u>： “right answers” given</p><p>​        ↓</p><p><u>Regression</u>: Predict continuous valued output</p><p><u>Classification</u>: Discrete valued output (0 or 1)</p><h2 id="1-4-Unsupervised-Learning"><a href="#1-4-Unsupervised-Learning" class="headerlink" title="1.4 Unsupervised Learning"></a>1.4 Unsupervised Learning</h2><p><strong>datasets:</strong> no labels or same labels</p><p>Cocktail party problem algorithm</p><p><code>[W,s,v] = svd((repmat(sum(x.*x,1),size(x,1),1).*x)*x&#39;)</code></p><p>[source: Sam Roweis, Yair Weiss &amp; Eero Simoncelli]</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Machine Learning </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Machine Learning </tag>
+            
+            <tag> Learning Notes </tag>
+            
+            <tag> Andrew Ng </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>上帝爱世人</title>
       <link href="/2020/03/11/20200311-GodLovesAll/"/>
       <url>/2020/03/11/20200311-GodLovesAll/</url>
       
-        <content type="html"><![CDATA[<p>2020年3月11日</p><p>上帝爱世人 ——</p><img src="http://i1.fuimg.com/711807/b85b707e366cd263.jpg" style="zoom:70%;" />]]></content>
+        <content type="html"><![CDATA[<p>2020年3月11日</p><p>上帝爱世人 ——</p>]]></content>
       
       
       <categories>
@@ -33,7 +62,7 @@
       <link href="/2020/03/10/20200309%20Future/"/>
       <url>/2020/03/10/20200309%20Future/</url>
       
-        <content type="html"><![CDATA[<p>2020年3月10日</p><p>相信未来——</p><img src="http://i1.fuimg.com/711807/14e71420f315ee27.jpg" alt="BelieveFuture" style="zoom:80%;" />]]></content>
+        <content type="html"><![CDATA[<p>2020年3月10日</p><p>相信未来——</p>]]></content>
       
       
       <categories>
@@ -62,7 +91,7 @@
       <link href="/2020/03/09/20200310%20Forget/"/>
       <url>/2020/03/09/20200310%20Forget/</url>
       
-        <content type="html"><![CDATA[<p>2020年3月9日</p><p>我什么也没忘，但是有些事只适合收藏。</p><p>不能说，也不能想，却又不能忘……</p><img src="http://i1.fuimg.com/711807/9c16925c34898e0a.jpg" alt="pic by wwb" style="zoom:40%;" />]]></content>
+        <content type="html"><![CDATA[<p>2020年3月9日</p><p>我什么也没忘，但是有些事只适合收藏。</p><p>不能说，也不能想，却又不能忘……</p>]]></content>
       
       
       <categories>
