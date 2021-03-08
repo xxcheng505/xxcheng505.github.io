@@ -181,7 +181,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2021-03-09 00:59:01 / Modified: 01:03:01" itemprop="dateCreated datePublished" datetime="2021-03-09T00:59:01+08:00">2021-03-09</time>
+              <time title="Created: 2021-03-09 00:59:01 / Modified: 01:16:50" itemprop="dateCreated datePublished" datetime="2021-03-09T00:59:01+08:00">2021-03-09</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -205,8 +205,7 @@
 
       
           <h2 id="Chapter-2-Liner-regression-with-one-variable"><a href="#Chapter-2-Liner-regression-with-one-variable" class="headerlink" title="Chapter 2 - Liner regression with one variable"></a>Chapter 2 - Liner regression with one variable</h2><p>[TOC]</p>
-<h3 id="2-1-Model-Representation"><a href="#2-1-Model-Representation" class="headerlink" title="2.1 Model Representation"></a>2.1 Model Representation</h3><img src="https://raw.githubusercontent.com/xxcheng505/typora-image-repo/master/imgimage-20210303005018800.png" alt="image-20210303005018800" style="zoom:80%;" />
-
+<h3 id="2-1-Model-Representation"><a href="#2-1-Model-Representation" class="headerlink" title="2.1 Model Representation"></a>2.1 Model Representation</h3><p><img src="https://raw.githubusercontent.com/xxcheng505/typora-image-repo/master/image-20210309011436819.png" alt="image-20210309011436819"></p>
 <p>图中x轴表示房屋尺寸，y轴表示房屋价格</p>
 <p>假设你现在想出售一间房，面积是1250 feet^2，那么你可能卖到多少钱？</p>
 <p>这是一个典型的监督学习问题，因为按照如下定义，我们对于样本有明确的答案。</p>
@@ -226,7 +225,7 @@
 <li>(x,y) – one training example</li>
 <li>(x^(i), y^(i)) – ith training example</li>
 </ol>
-<p><img src="https://raw.githubusercontent.com/xxcheng505/typora-image-repo/master/imgimage-20210303010410488.png" alt="image-20210303010410488"></p>
+<p><img src="https://raw.githubusercontent.com/xxcheng505/typora-image-repo/master/image-20210309011510921.png" alt="image-20210309011510921"></p>
 <ul>
 <li><p>有训练集之后，我们可以通过算法，构建hypothesis 公式 h，通过h我们预测不同尺寸的房子的价格。</p>
 </li>
@@ -236,17 +235,21 @@
 </li>
 </ul>
 <h3 id="2-2-Cost-Function"><a href="#2-2-Cost-Function" class="headerlink" title="2.2 Cost Function"></a>2.2 Cost Function</h3><p>How to choose θ0 and  θ1？</p>
-<img src="https://raw.githubusercontent.com/xxcheng505/typora-image-repo/master/image-20210304002428330.png" alt="image-20210304002428330" style="zoom:75%;" />
+<img src="https://raw.githubusercontent.com/xxcheng505/typora-image-repo/master/image-20210309011550254.png" alt="image-20210309011550254" style="zoom: 67%;" />
 
 <p>在线性回归模型中，我们有一个训练集</p>
-<p><img src="https://raw.githubusercontent.com/xxcheng505/typora-image-repo/master/image-20210304002509087.png" alt="image-20210304002509087"></p>
+<img src="https://raw.githubusercontent.com/xxcheng505/typora-image-repo/master/image-20210309011536467.png" alt="image-20210309011536467" style="zoom:50%;" />
+
 <p>我们现在想要得出 θ0 和  θ1的值，来让假设函数表示的直线尽量与这些数据点更好的拟合</p>
 <p>思路：能使h(x)，也就是输入x时，我们预测的值<strong>最接近</strong>该样本对应的y值的参数 <strong>θ0 和 θ1</strong>。</p>
 <p>即 minimize   1/2m * 求和[ ( hθ(x)^(i) - y^(i) ) ^2 ] (从i=1开始到m结束)</p>
 <p><u>（弹幕提醒：1/2是为了消除2次方求导后的系数2）</u></p>
 <p>预测值（预测价格）和实际值（实际卖出价格）的差的平方误差最小</p>
 <p>改写上述函数为代价函数lost function</p>
-<p><img src="https://raw.githubusercontent.com/xxcheng505/typora-image-repo/master/image-20210304003739145.png" alt="image-20210304003739145"></p>
+<img src="https://raw.githubusercontent.com/xxcheng505/typora-image-repo/master/image-20210309011611329.png" alt="image-20210309011611329" style="zoom:50%;" />
+
+
+
 <p>代价函数也被称为均方误差函数（squared error function），有时也被称为均方误差代价函数（squared error cost function），对于大多数问题，特别是回归问题都是一个合理的选择。</p>
 <h3 id="2-3-Cost-Function-Intuition-I"><a href="#2-3-Cost-Function-Intuition-I" class="headerlink" title="2.3 Cost Function - Intuition I"></a>2.3 Cost Function - Intuition I</h3><p>What is the cost function and why do we want to use it ?</p>
 <p><img src="https://raw.githubusercontent.com/xxcheng505/typora-image-repo/master/image-20210304004338106.png" alt=""></p>
